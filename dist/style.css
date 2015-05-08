@@ -13,7 +13,7 @@
 
 		}
 		
-	ul > li {
+	ul#menuChoices li{
 	list-style-type: none;
 	display: inline;
 	float: right;
@@ -78,6 +78,23 @@
 		font-size: 18px;
 	}
 
+	.benefitsBox {
+		background-color: #F5F5F5;
+		border: solid lightgrey 1px;
+		width: 450px;
+		text-align: center;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	ul#benefitsList li{
+		list-style-type: none;
+		text-align: center;
+		margin:30px;
+		border-bottom: solid lightgrey 1px;
+		padding-bottom: 10px;
+
+
+	}
 }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
