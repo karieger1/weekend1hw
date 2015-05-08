@@ -1,0 +1,43 @@
+@media (max-width: 478px) {
+	.topbox {
+	  	height:25px;
+	
+		}
+	
+	ul {
+	margin:0 auto;
+
+		}
+		
+	ul > li{
+	list-style-type: none;
+	display: inline;
+	float: right;
+	padding-right: 15px;
+
+	
+		}
+
+	.logo{
+		
+		width:200px;
+		float: left;
+	}
+	.treebackground {
+		background-image: url("https://github.com/TIY-Austin-Front-End-Engineering/responsive-site/blob/master/background.jpg?raw=true");
+		height:200px;
+		margin-top:5px;
+		color: white;
+		font-size: 22px;
+		text-align: center;
+	}
+	.treebackground > span {
+		white-space: pre;
+
+	}
+
+
+
+
+
+}
