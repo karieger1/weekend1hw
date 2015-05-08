@@ -6,7 +6,9 @@
 		box-sizing: border-box;
 		padding-bottom: 20px;
 	}
-
+	body {
+		font-family: arial;
+	}
 
 	ul {
 	margin:0 auto;
@@ -47,7 +49,7 @@
 		white-space: pre;
 
 	}
-	.greenbox{
+	.greenBox{
 		width: 450px;
 		height: 220px;
 		background-color: #3E803B;
@@ -56,16 +58,16 @@
 		padding-bottom: 50px;
 		padding-top: 30px;
 		box-sizing: border-box;
-		
 		margin-right: auto;
 		margin-left: auto;
 	}
 	.cost{
 		color: white;
 		font-size: 95px;
-		font-weight: 100;
 		text-align: center;
 		margin-bottom: 7px;
+		font-weight: lighter;
+
 	}
 	.plantype {
 		color: white;
@@ -85,6 +87,7 @@
 		text-align: center;
 		margin-right: auto;
 		margin-left: auto;
+		border
 	}
 	ul#benefitsList li{
 		list-style-type: none;
@@ -93,8 +96,49 @@
 		border-bottom: solid lightgrey 1px;
 		padding-bottom: 10px;
 
+	}
+
+	.blueBox {
+		width: 450px;
+		height: 220px;
+		background-color: #1D2E64;
+		margin-top: 50px;
+		text-align: center;
+		padding-bottom: 50px;
+		padding-top: 30px;
+		box-sizing: border-box;
+		
+		margin-right: auto;
+		margin-left: auto;
 
 	}
+	table {
+		text-align: center;
+		background-color: #F4F4F4
+		width:450px;
+    	margin-left:auto; 
+    	margin-right:auto;
+  }
+		}
+	tr > td {
+		padding: 20px;
+		border:1px solid lightgrey;
+		
+	}
+	
+	.blackBox {
+		width: 450px;
+		height: 220px;
+		background-color: black;
+		margin-top: 50px;
+		text-align: center;
+		padding-bottom: 50px;
+		padding-top: 30px;
+		box-sizing: border-box;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
 }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
