@@ -15,7 +15,25 @@
 	}
 }
 @media (min-width: 479px) and (max-width: 767px) {
-	.greenBox {
-		
+	.greenBox, .blueBox, .blackBox {
+		margin-left: 15px;
 	}
 }
+
+@media (min-width: 479px) and (max-width: 767px) {
+	table {
+		margin-left:15px;
+		
+	
+	
+	}
+}
+@media (min-width: 479px) and (max-width: 767px){
+	p{
+		letter-spacing:0px;
+		font-size: 16px;
+		margin-right: 35px;
+	}
+	
+}
+
