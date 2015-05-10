@@ -1,0 +1,21 @@
+@media (min-width: 479px) and (max-width: 767px) {
+	.treebackground {
+		height: 400px;
+		width: 480px;
+		padding-top: 160px;
+		padding-bottom: 140px;
+		font-size: 45px;
+		margin-right: 8px;
+		margin-left: 8px;
+	}
+}
+@media (min-width: 479px) and (max-width: 767px) {
+	.logo {
+		
+	}
+}
+@media (min-width: 479px) and (max-width: 767px) {
+	.greenBox {
+		
+	}
+}
