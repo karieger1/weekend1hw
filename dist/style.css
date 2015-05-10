@@ -1,4 +1,4 @@
-@media (max-width: 478px) {
+
 	.topbox {
 		height:22px;
 		font-family: arial;
@@ -6,6 +6,7 @@
 		box-sizing: border-box;
 		padding-bottom: 20px;
 	}
+
 	body {
 		font-family: arial;
 	}
@@ -13,14 +14,13 @@
 	ul {
 	margin:0 auto;
 
+
 		}
 		
 	ul#menuChoices li{
 	list-style-type: none;
 	display: inline;
-	
 	padding-right: 30px;
-	
 	font-size: 14px;
 
 	
@@ -31,7 +31,7 @@
 		width:100px;
 		float: left;
 		font-size: 15px;
-		margin-right: 40px;
+		margin-right: 60px;
 		
 	}
 	ul > li > span{
@@ -95,15 +95,7 @@
 		text-align: center;
 		margin-right: auto;
 		margin-left: auto;
-		
-	}
-	ul#benefitsList li{
-		list-style-type: none;
-		text-align: center;
-		margin:30px;
-		border-bottom: solid lightgrey 1px;
-		padding-bottom: 10px;
-
+	
 	}
 
 	.blueBox {
@@ -126,9 +118,8 @@
 		width:450px;
     	margin-left:auto; 
     	margin-right:auto;
-
-  }
-		}
+  	}
+		
 	tr > td {
 		padding: 20px;
 		border:1px solid lightgrey;
@@ -202,6 +193,7 @@
 		}
 	.bottomBox > p 	{
 		margin: 8px;
+		margin-right: 10px;
 	}
 	#margin {
 	margin-top: 110px;
@@ -645,5 +637,4 @@ td,
 th {
   padding: 0;
 }
-
 
