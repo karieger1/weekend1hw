@@ -1,0 +1,88 @@
+@media (min-width: 767px) and (max-width: 978px) {
+	.treebackground {
+		width:765px;
+		height:400px;
+		margin-left:10px;
+		font-size:55px;
+		padding-top: 120px;
+		padding-bottom: 150px;
+		text-align: center;
+		text-shadow: 5px 5px 5px black;
+
+	}
+}
+	
+@media (min-width: 767px) and (max-width: 978px){
+	.greenBox{
+		height:240px;
+		width: 30%;
+		margin-right: 3px;
+		margin-left: 15px;
+		float: left;
+
+		
+
+
+	}
+}
+@media (min-width: 767px) and (max-width: 978px){
+	.blueBox{
+		height:240px;
+		width: 30%;
+		margin-right: 3px;
+		margin-left: 15px;
+		
+	}
+}
+
+@media (min-width: 767px) and (max-width: 978px){
+	.blackBox{
+		height:235px;
+		width: 30%;
+		margin-right: 3px;
+		margin-left: 15px;
+		
+	}
+}
+@media (min-width: 767px) and (max-width: 978px) {
+	ul#menuChoices li {
+		font-size: 15px;
+
+	}
+}
+
+
+@media (min-width: 767px) and (max-width: 978px) {
+	table {
+		width: 30%;
+		margin-left: 15px;
+		clear: both;
+		
+
+	}
+}
+@media (min-width: 767px) and (max-width: 978px){
+	.paraHeading {
+		clear: both;
+	}
+}
+
+@media (min-width: 767px) and (max-width: 978px){
+	.bottomBox {
+		width: 770px;
+		height: 70px;
+
+	}
+}
+@media (min-width: 767px) and (max-width: 978px) {
+	.bottomBox{
+		color:grey;
+		
+	}
+}
+@media (min-width: 767px) and (max-width: 978px){
+	.bottomBox > p {
+		white-space: nowrap; /*can't get this to display inline?!*/
+
+	}
+}

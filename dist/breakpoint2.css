@@ -9,11 +9,7 @@
 		margin-left: 8px;
 	}
 }
-@media (min-width: 479px) and (max-width: 767px) {
-	.logo {
-		
-	}
-}
+
 @media (min-width: 479px) and (max-width: 767px) {
 	.greenBox, .blueBox, .blackBox {
 		margin-left: 15px;
@@ -24,8 +20,6 @@
 	table {
 		margin-left:15px;
 		
-	
-	
 	}
 }
 @media (min-width: 479px) and (max-width: 767px){
