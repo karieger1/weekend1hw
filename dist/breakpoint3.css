@@ -2,7 +2,7 @@
 	.treebackground {
 		width:765px;
 		height:400px;
-		margin-left:10px;
+		margin-left:20px;
 		font-size:55px;
 		padding-top: 120px;
 		padding-bottom: 150px;
@@ -15,7 +15,7 @@
 @media (min-width: 767px) and (max-width: 978px){
 	.greenBox{
 		height:240px;
-		width: 30%;
+		width: 240px;
 		margin-right: 3px;
 		margin-left: 15px;
 		float: left;
@@ -28,7 +28,7 @@
 @media (min-width: 767px) and (max-width: 978px){
 	.blueBox{
 		height:240px;
-		width: 30%;
+		width:240px;
 		margin-right: 3px;
 		margin-left: 15px;
 		
@@ -37,8 +37,8 @@
 
 @media (min-width: 767px) and (max-width: 978px){
 	.blackBox{
-		height:235px;
-		width: 30%;
+		height:240px;
+		width: 240px;
 		margin-right: 3px;
 		margin-left: 15px;
 		
@@ -54,35 +54,71 @@
 
 @media (min-width: 767px) and (max-width: 978px) {
 	table {
-		width: 30%;
+		width: 240px;
 		margin-left: 15px;
-		clear: both;
+		
 		
 
 	}
 }
-@media (min-width: 767px) and (max-width: 978px){
-	.paraHeading {
-		clear: both;
+@media (min-width: 767px) and (max-width: 978px) {
+	.option1 {
+		float:left;
+		width:30%;
+		margin-right: 20px;
+	}
+}
+
+@media (min-width: 767px) and (max-width: 978px) {
+	.option2 {
+		display: inline-block;
+		width:30%;
+		margin-right: 20px;
+	}
+}
+
+@media (min-width: 767px) and (max-width: 978px) {
+	.option3 {
+		float:right;
+		width:30%;
+		margin-right: 40px;
 	}
 }
 
 @media (min-width: 767px) and (max-width: 978px){
 	.bottomBox {
-		width: 770px;
+		width: 100%;
 		height: 70px;
+		color:grey;
+		clear: both; 
+		margin-right: 10px;
+		margin-left: 10px;
+	
 
 	}
 }
-@media (min-width: 767px) and (max-width: 978px) {
-	.bottomBox{
-		color:grey;
-		
-	}
-}
+
 @media (min-width: 767px) and (max-width: 978px){
 	.bottomBox > p {
 		white-space: nowrap; /*can't get this to display inline?!*/
 
 	}
 }
+@media (min-width: 767px) and (max-width: 978px) {
+	.first2paras {
+		float:left;
+		width: 45%;
+	}
+}
+@media (min-width: 767px) and (max-width: 978px) {
+	.second2paras {
+		float:right;
+		width: 45%;
+		margin-top: 110px;
+
+	}
+}
+
+
+
+
